@@ -1,7 +1,7 @@
-import { StandingsInterface, TopScoreInterface } from ".";
+import { StandingsInterface, TopScorerInterface } from ".";
 
 export interface DataStatistics {
     standingsCurrent?: StandingsInterface;
-    topScorer?: TopScoreInterface;
+    topScorer?: TopScorerInterface;
     error?: string;
 }

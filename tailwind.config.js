@@ -36,7 +36,6 @@ export default {
     plugin(({addUtilities}) => {
       addUtilities({
         '.menu': {
-          with: '20%',
           backgroundColor: '#247B7B',
           padding: '2rem 0rem 2rem 1.25rem',
           borderTopRightRadius: '0.5rem',
