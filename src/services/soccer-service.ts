@@ -16,7 +16,7 @@ export const getInfoSeason = async(): Promise<StandingsInterface> => {
             method: 'GET',
             headers: headers
         });
-        
+
         const json: StandingsInterface = await resp.json();
 
         return json;
@@ -41,7 +41,6 @@ export const getTopScorer = async(): Promise<TopScorerInterface> => {
             method: 'GET',
             headers,
         });
-
 
         const json: TopScorerInterface = await resp.json();
         return json;
